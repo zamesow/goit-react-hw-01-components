@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/zamesow/goit-react-hw-01-components/static/js/main.369ed312.chunk.js",
-    "main.js.map": "/zamesow/goit-react-hw-01-components/static/js/main.369ed312.chunk.js.map",
-    "runtime-main.js": "/zamesow/goit-react-hw-01-components/static/js/runtime-main.e801278a.js",
-    "runtime-main.js.map": "/zamesow/goit-react-hw-01-components/static/js/runtime-main.e801278a.js.map",
-    "static/js/2.f912f59e.chunk.js": "/zamesow/goit-react-hw-01-components/static/js/2.f912f59e.chunk.js",
-    "static/js/2.f912f59e.chunk.js.map": "/zamesow/goit-react-hw-01-components/static/js/2.f912f59e.chunk.js.map",
-    "index.html": "/zamesow/goit-react-hw-01-components/index.html",
-    "static/js/2.f912f59e.chunk.js.LICENSE.txt": "/zamesow/goit-react-hw-01-components/static/js/2.f912f59e.chunk.js.LICENSE.txt"
+    "main.js": "/goit-react-hw-01-components/static/js/main.369ed312.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.369ed312.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.9c91bdbc.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.9c91bdbc.js.map",
+    "static/js/2.f912f59e.chunk.js": "/goit-react-hw-01-components/static/js/2.f912f59e.chunk.js",
+    "static/js/2.f912f59e.chunk.js.map": "/goit-react-hw-01-components/static/js/2.f912f59e.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "static/js/2.f912f59e.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.f912f59e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e801278a.js",
+    "static/js/runtime-main.9c91bdbc.js",
     "static/js/2.f912f59e.chunk.js",
     "static/js/main.369ed312.chunk.js"
   ]
