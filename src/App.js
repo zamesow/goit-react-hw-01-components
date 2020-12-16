@@ -3,6 +3,8 @@ import user from './js/user.json';
 import statisticalData from './js/statistical-data.json';
 import Profile from './components/Profile';
 import StatisticsList from './components/StatisticsList';
+import friends from './js/friends.json';
+import FriendList from './components/FriendList';
 
 export default function App() {
     return (
@@ -15,8 +17,10 @@ export default function App() {
                 stats={user.stats}
             />
 
-            <StatisticsList title="Upload stats" stats={statisticalData} />;
+            <StatisticsList title="Upload stats" stats={statisticalData} />
             {/* <StatisticsList stats={statisticalData} />; */}
+
+            <FriendList friends={friends} />
         </div>
     );
 }
