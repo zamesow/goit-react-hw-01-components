@@ -1,10 +1,18 @@
-import Friend from './Friend';
+import FriendListItem from './FriendListItem';
 
-function FriendList() {
+function FriendList({friends}) {
     return (
         <ul class="friend-list">
             {/* Произвольное кол-во FriendListItem, в зависимости от кол-ва объектов в массиве */}
-            <Friend />
+            {friends.map(friend => (
+                <li class="item" key={friend.id}>
+                    <FriendListItem
+                        isOnline={friend.isOnline}
+                        avatar={friend.avatar}
+                        name={friend.name}
+                    />
+                </li>
+            ))}
         </ul>
     );
 }
