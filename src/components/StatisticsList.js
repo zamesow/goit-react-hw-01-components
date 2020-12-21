@@ -1,4 +1,5 @@
 import Statistics from './Statistics';
+import PropTypes from 'prop-types';
 
 function StatisticsList({ stats }) {
     return (
@@ -18,6 +19,14 @@ function StatisticsList({ stats }) {
             
         </section>
     );
+};
+
+StatisticsList.propTypes = {
+    stats: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired,
+        }),
+    ),
 };
 
 export default StatisticsList;
