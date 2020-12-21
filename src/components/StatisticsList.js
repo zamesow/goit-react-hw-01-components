@@ -1,6 +1,6 @@
 import Statistics from './Statistics';
 
-function StatisticsList({stats}) {
+function StatisticsList({ stats }) {
     return (
         <section class="statistics">
             <h2 class="title">"Upload stats"</h2>
