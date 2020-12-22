@@ -76,3 +76,42 @@ export default function App() { return ( <div>{[1,2,3,4,5]}.map(el =>
 - генерирование уникального id в {uuidv1()} путём дополнительной ф-ции, приведёт к постоянному ререндерингу всех коллекций, это не ок
 - при возвращении из мэпа id должен стоять на самом корневом элементе
  -->
+<!--
+- рендер по-условию (к примеру пропс не пришел или фолс, в таком случае разметку рендерить не надо)
+ -->
+
+Section.js
+
+function Section({ title }) { return ( <div> {title && <h2>{title}</h2>} </div>
+); } export default Section;
+
+<!-- в таком случае прописать проптайп title: PropTypes.string - не обязательный!-->
+<!-- import Section -->
+
+App.js
+
+export default function App() { return ( <div> <Section title="Топ недели" />
+<Section /> </div> ); }
+
+<!--
+- если поставить двойные теги (откр-закр), то то, что написано между ними относится к свойству children и это будет массив, если там больше одного элемента
+ -->
+ <Section title="Топ недели">Элемент children</Section>
+
+ <!-- [<PaintingList />, <PaintingList />] -->
+ <Section title="Топ недели">
+    <PaintingList items={paintings} />
+    <PaintingList items={paintings} />
+ </Section>
+
+ <!-- 
+ - чтоб зарендерить, надо вставить проп children.
+ - зарендерится прямо под children
+ - для работы с children в react есть специальный API - React.Children.map(), .forEach(), .count() и др...
+ - children: PropType.node
+  -->
+
+Section.js
+
+function Section({ title, children }) { return ( <div> {title &&
+<h2>{title}</h2>} {children} </div> ); } export default Section;
