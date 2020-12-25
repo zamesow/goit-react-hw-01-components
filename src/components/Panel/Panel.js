@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Panel.module.css';
 
-
-const styles = {
-    outline: "1px solid tomato",
-};
+console.log(styles);
+// const styles = {
+//     width: 1170,
+//     outline: "3px solid tomato",
+//     border: '5px solid blue'
+// };
 
 const Panel = ({ title, children }) => (
-    <div style={styles}>
+    <div className={styles.container}>
         {/* если условие слева true, то справа выполняется */}
     {title && <h2>{title}</h2>}
         
