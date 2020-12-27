@@ -1,14 +1,16 @@
 import Statistics from '../Statistics/Statistics';
 import PropTypes from 'prop-types';
+import sl from './StatisticsList.module.css';
 
 function StatisticsList({ stats }) {
+  console.log({ outline: '1px solid red' });
   return (
-    <section className="statistics">
-      <h2 className="title">"Upload stats"</h2>
+    <section className={sl.profile}>
+      <h2 className={sl.title}>"Upload stats"</h2>
 
-      <ul className="stat-list">
+      <ul className={sl.profile}>
         {stats.map(stat => (
-          <li className="item" key={stat.id}>
+          <li className={sl.item} key={stat.id}>
             <Statistics label={stat.label} percentage={stat.percentage} />
           </li>
         ))}

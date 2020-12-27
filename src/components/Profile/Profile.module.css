@@ -1,9 +1,40 @@
 .profile {
-  width: 100px;
-  background-color: tomato;
+  width: 200px;
+  padding: 10px 0;
+  margin: 5px auto;
+  display: block;
+  text-align: center;
 }
 
 .name {
   composes: profile;
-  background-color: yellowgreen;
+  background-color: rgb(232, 255, 100);
+}
+
+.tag {
+  composes: profile;
+  background-color: red;
+}
+
+.location {
+  composes: profile;
+  background-color: cyan;
+}
+
+.stats {
+  list-style: none;
+  background-color: black;
+  color: #ffffff;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.quantity {
+  color: yellow;
 }

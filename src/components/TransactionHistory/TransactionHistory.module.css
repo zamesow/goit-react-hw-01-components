@@ -1,0 +1,17 @@
+.transactionHistory {
+  width: 200px;
+  margin: 10px auto;
+  padding: 0;
+  display: block;
+  text-align: center;
+  /* justify-content: center; */
+  list-style: none;
+}
+
+.typeColumn {
+  text-align: left;
+}
+
+.string:nth-child(2n-1) {
+  background-color: khaki;
+}

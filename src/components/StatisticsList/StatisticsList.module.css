@@ -1,0 +1,18 @@
+.profile {
+  width: 200px;
+  margin: 10px auto;
+  padding: 0;
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+
+.title {
+  background-color: rgb(232, 255, 100);
+}
+
+.item {
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding-right: 10px; */
+}

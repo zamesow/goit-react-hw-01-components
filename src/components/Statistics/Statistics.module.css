@@ -1,0 +1,14 @@
+.profile {
+  list-style: none;
+  background-color: black;
+  color: #ffffff;
+  padding-left: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.percentage {
+  color: yellow;
+  padding-right: 10px;
+}
