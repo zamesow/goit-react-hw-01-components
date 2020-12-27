@@ -6,6 +6,7 @@ import Panel from './components/Panel/Panel';
 import СolorPicker from './components/ColorPicker/СolorPicker';
 import Notification from './components/Notification/Notification';
 import Layout from './components/Layout/Layout';
+import Alert from './components/Alert/Alert';
 
 // const numbers = [1, 2, 3, 4, 5];
 // console.log(numbers.map((number) => <div>{number}</div>));
@@ -23,6 +24,11 @@ const colorPickerOptions = [
 const App = () => {
     return (
         <Layout>
+            {/* <Alert text="Шеф, каг дила?" type="" /> */}
+            <Alert text="Шеф, два счётчика" type="success" />
+            <Alert text="Шеф, внимание" type="warning" />
+            <Alert text="Шеф, всё пропало" type="error" />
+
                 <Notification text="Всё хорошо" type="success" />
 
                 <Notification text="Жопа полная" type="error" />

@@ -8,6 +8,7 @@ const PaintingList = ({ paintings }) => (
         {paintings.map(({id, url, title, price, author, quantity}) => (
             <li key={id} className="PaintingList__item">
                 <Painting
+                    // можно так же сделать распыление свойств {...item}, но при нём не ясно, что передаём
                     url={url}
                     title={title}
                     price={price}
