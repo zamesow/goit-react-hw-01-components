@@ -1,0 +1,9 @@
+.profile {
+  width: 100px;
+  background-color: tomato;
+}
+
+.name {
+  composes: profile;
+  background-color: yellowgreen;
+}
