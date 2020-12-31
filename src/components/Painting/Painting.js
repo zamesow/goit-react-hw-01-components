@@ -4,7 +4,7 @@ import defaultImage from './default.jpg';
 import PropTypes from 'prop-types';
 
 const Painting = ({ url, title, price, authorUrl, tag, quantity }) => (
-    <div>
+    <div className="painting">
             <img src={url} alt={title} width="480" />
             <h2>{title}</h2>
             <p>

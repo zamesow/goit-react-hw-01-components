@@ -2,6 +2,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './styles.css';
+// убрать в адресе node_modules/
+import 'modern-normalize/modern-normalize.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,7 +13,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// создаём элемент, указываем тип элемента ('a' - ссылка), объект настроек (атрибуты, проксы, свойства), дети (элементы между <></>)
+// создаём элемент, указываем тип элемента ('a' - ссылка), объект настроек (атрибуты, проксы, свойства), дети (элементы между <d></div>)
 // const link = React.createElement('a', { href: 'reactjs.org' }, 'Ссылочка');
 
 // const jsxlink = <a href="reactjs.org">Ссылочка</a >;
