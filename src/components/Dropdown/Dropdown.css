@@ -1,0 +1,22 @@
+.Dropdown {
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid black;
+  position: relative;
+}
+
+.Dropdown__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+
+.Dropdown__toggle {
+  width: 100%;
+}

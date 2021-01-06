@@ -1,0 +1,11 @@
+.Counter {
+  border: 2px solid fuchsia;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.Counter__value {
+  font-size: 100px;
+}
