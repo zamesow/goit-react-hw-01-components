@@ -3,12 +3,12 @@ import React from 'react';
 // import paintings from './paintings.json';
 // import PaintingList from './components/PaintingList/PaintingList';
 // import Panel from './components/Panel/Panel';
-import СolorPicker from './components/ColorPicker/СolorPicker';
+import СolorPicker from './components/ColorPicker';
 // import Notification from './components/Notification/Notification';
 // import Layout from './components/Layout/Layout';
 // import Alert from './components/Alert/Alert';
-// import Counter from './components/Counter/Counter';
-// import Dropdown from './components/Dropdown/Dropdown';
+import Counter from './components/Counter';
+import Dropdown from './components/Dropdown';
 
 // const numbers = [1, 2, 3, 4, 5];
 // console.log(numbers.map((number) => <div>{number}</div>));
@@ -26,11 +26,11 @@ const colorPickerOptions = [
 const App = () => {
     return (
         <>
-            {/* 14) <Counter initialValue={123} /> */}
+            14) <Counter initialValue={123} />
             {/* <Counter /> */}
 
             {/* 19) */}
-            {/* <Dropdown /> */}
+            <Dropdown />
 
             {/* 23) */}
             <СolorPicker options={colorPickerOptions} />

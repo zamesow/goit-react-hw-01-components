@@ -180,4 +180,6 @@
 
 ---
 
-Reexport
+35. Re-export ()
+
+- webpack ищет сначала файлы index.js. Выносим в него default export
