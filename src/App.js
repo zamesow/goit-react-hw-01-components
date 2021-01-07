@@ -3,10 +3,10 @@ import React from 'react';
 // import paintings from './paintings.json';
 // import PaintingList from './components/PaintingList/PaintingList';
 // import Panel from './components/Panel/Panel';
-import СolorPicker from './components/ColorPicker';
 // import Notification from './components/Notification/Notification';
 // import Layout from './components/Layout/Layout';
 // import Alert from './components/Alert/Alert';
+import СolorPicker from './components/ColorPicker';
 import Counter from './components/Counter';
 import Dropdown from './components/Dropdown';
 
